@@ -3,6 +3,15 @@
 (function() {
   'use strict';
 
+  angular.module('drywall', []).
+      config(['$stateProvider', function ($stateProvider) {
+
+      }]).
+      controller('SignupCtrl', ['$scope', function ($scope) {
+
+      }]);
+
+  //Backbone
   app = app || {};
 
   app.Signup = Backbone.Model.extend({
